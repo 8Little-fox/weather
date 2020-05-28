@@ -1,0 +1,78 @@
+.page {
+
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1590602999936&di=5c7b8694189c52eef00a01711d3c878b&imgtype=0&src=http%3A%2F%2Fcdn.moji002.com%2Fimages%2Fsimgs%2F2017%2F07%2F18%2F15003561090.35938300.1750_android.jpg);
+  width: 100vw;
+  height: 100vh;
+  /* background-color: #5a9cd8; */
+}
+
+.top {
+  top: 20rpx;
+  margin-left: 50rpx;
+  width: 80%;
+  padding: 15rpx;
+  position: relative;
+  background-color: #efefef;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+}
+
+.top input {
+  width: 80%;
+  font-size: 32rpx;
+}
+
+.search1 {
+  position: absolute;
+  width: 10%;
+  right: 0;
+  bottom: 3rpx;
+}
+.con{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.img {
+  width: 400rpx;
+  height: 400rpx;
+}
+.con >text{
+  width: 40%;
+  font-size: 20px;
+  color: rgb(187, 181, 173);
+  
+}
+
+/* body */
+.body {
+  color: #efefef;
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.body text {
+  font-size: 1em;
+}
+
+.bottom {
+  color: #efefef;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.5em;
+}
+
+.tips {
+  padding: 30rpx;
+  margin: 10rpx;
+  color: rgb(235, 235, 17);
+}

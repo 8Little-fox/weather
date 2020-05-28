@@ -1,0 +1,30 @@
+<view class="page">
+	<view class="top">
+		<input type="text" placeholder="输入城市名进行搜索" bindinput="bindKeyInput"></input>
+		<view class="search1">
+			<icon type="search" size="30" bindtap="search"></icon>
+		</view>
+	</view>
+	<view class="body">
+		<h1>{{city}}</h1>
+		<text>{{date}}\{{week}}</text>
+	</view>
+	<view class="con">
+		<image wx:if="{{pic}}" src="../img/{{pic}}" mode="aspectFit" class="img"></image>
+		<text>{{content}}</text>
+	</view>
+
+
+	<view class="bottom">
+		<view>
+			<text>{{weather}}</text>
+		</view>
+		<view class="tem">
+			<view>{{temp}}</view>
+			<view>{{wind}}</view>
+		</view>
+	</view>
+	<view class="tips">
+		穿衣提示：{{tips}}
+	</view>
+</view>
