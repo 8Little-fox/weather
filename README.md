@@ -5,7 +5,7 @@
 ```
 var defaultcity, getweather, gettemp, getwind, getpic, getdate, gettips, getweek
 ```
-
+天行数据：https://www.tianapi.com/apiview/72
 请求天行数据天气api
 
 ```
